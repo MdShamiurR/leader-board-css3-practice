@@ -85,6 +85,10 @@ hr{
     
 }
 /* course */
+.course-display{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .course img{
     width: 224px;
     height: 104px;
@@ -126,4 +130,14 @@ hr{
 .time{
     color: #A2A2A2;
     font-size: 15px;
+}
+.box{
+    /* box-shadow: rgba(207, 123, 14, 0.877) 0px 3px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    Width : 252.42px ;
+    Height: 269.79px ;
+    margin-top: 30px;
+}
+.data{
+    padding-top: 7px;
 }
