@@ -46,6 +46,7 @@ hr{
     border: 1px solid #D1D1D1;
     Width :807px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /* blog
@@ -73,9 +74,56 @@ hr{
 }
 .block{
     display: block;
+    font-size: 20px;
 }
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+    margin-top: 31px;
     
+    
+}
+/* course */
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.sec2-text{
+    display: block;
+    font-size: 20px;
+}
+.tutor{
+    font-size: 15px;
+    text-decoration: none;
+    color:  #ED6B4F;
+}
+.fa-star.rate{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;;
+}
+.clock{
+    display: inline;
+    margin-left: 30px;
+}
+.course-rating{
+    display: inline;
+    margin-right: 10px;
+}
+.clock .time{
+    color: #FF4A60;
+    display: inline;
+}
+.clock{
+    background-color: #FFE4E8;
+    padding-right: 15px;
+    
+    
+    border-radius: 20px;
+}
+.time{
+    color: #A2A2A2;
+    font-size: 15px;
 }
