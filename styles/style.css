@@ -1,5 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* navigation bar  */
 
+
+.navigation {
+    background-color: #562EFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    Width :1440px;
+    Height :94px;
+}
+.navigation-items {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+}
+.navigation img {
+    width: 50px;
+}
+.navigation-items a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navigation-bar{
+    Width :1440px;
+    Height :94px;
+    background-color: #562EFF;
+}
+
+
+
+.icon img{
+    Width  :46px ;
+    Height :54px;
+    color: aliceblue;
+    
+}
+.icon{
+    display: inline;
+    
+    
+}
+.com-Name{
+    display: inline;
+    padding-left: 10px;
+}
+.c-name{
+    color: aliceblue;
+    font-size: large;
+    
+}
+.first-part{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-left: 300px;
+} */
+
+/* common text  */
 body{
     background: #F3F1FF;
     font-family: 'Poppins', sans-serif;
